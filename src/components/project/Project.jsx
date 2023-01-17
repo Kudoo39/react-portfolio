@@ -2,7 +2,7 @@ import React from 'react'
 import "./project.css"
 import img1 from  '../../assets/pro1.png'
 import img2 from  '../../assets/pro2.png'
-import img3 from  '../../assets/pro3.png'
+import img3 from  '../../assets/pro4.png'
 
 const Project = () => {
   return (
