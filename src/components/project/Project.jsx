@@ -2,6 +2,7 @@ import React from 'react'
 import "./project.css"
 import img1 from  '../../assets/pro1.png'
 import img2 from  '../../assets/pro2.png'
+import img3 from  '../../assets/pro3.png'
 
 const Project = () => {
   return (
@@ -28,6 +29,16 @@ const Project = () => {
           <h3>The DeadSlayer</h3>
           <div className="project__item-cta">
             <a href="https://kudoo39.itch.io/the-deadslayer" className='btn' target='_blank'>Link</a>
+          </div>
+        </article>
+
+        <article className='project__item'>
+          <div className="project__item-image">
+            <img src={img3} alt="Photo about react-portfolio" />
+          </div>
+          <h3>Website Portfolio</h3>
+          <div className="project__item-cta">
+            <a href="https://kudoo39.github.io/react-portfolio/" className='btn' target='_blank'>Link</a>
           </div>
         </article>
 
