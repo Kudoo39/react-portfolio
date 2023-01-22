@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineCamera className='about__icon'/>
               <h5>Hobby</h5>
-              <small>Coding, Listening to Music, Playing Video Games</small>
+              <small>Coding, Listening to Music, Playing Piano</small>
             </article>
 
             <article className='about__card'>
@@ -38,10 +38,9 @@ const About = () => {
             </article>
           </div>
           <p>Currently, I am a third-year student at XAMK. 
-            I have a solid foundation on IT. 
-            I have gained some knowledge about networking, data centers and IoT. 
-            I also have some basic knowledge about MVC and 
-            a significant improvement in programming skills.</p>
+            I have a solid foundation on IT. I would like to become a fullstack web developer.
+            I also have some basic knowledge about MVC. 
+            My hobbies are building websites and creating games using Unity</p>
           <a href="#contact" className='btn btn-primary'>Contact</a>
         </div>
       </div>
