@@ -46,7 +46,7 @@ const Experience = () => {
           <div className="experience__content">
             <article className='experience__details'>
               <AiOutlineConsoleSql className='experience__details-icon'/>
-              <h4>MySQL</h4>
+              <h4>SQL</h4>
             </article>
           </div>
         </div>
