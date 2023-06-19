@@ -39,6 +39,7 @@ project__item-cta {
         gap: 1.2rem;
     }
 }
+
 /* Medium Queries (Small devices)*/
 @media screen and (max-width: 600px) {
     .project__container {
