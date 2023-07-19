@@ -6,6 +6,10 @@ import {DiJavascript} from 'react-icons/di'
 import {DiBootstrap} from 'react-icons/di'
 import {SiReact} from 'react-icons/si'
 import {AiOutlineConsoleSql} from 'react-icons/ai'
+import {SiTypescript} from "react-icons/si"
+import {FaNodeJs} from "react-icons/fa"
+import {AiFillGithub} from 'react-icons/ai'
+import {SiExpress} from "react-icons/si"
 
 const Experience = () => {
   return (
@@ -31,12 +35,16 @@ const Experience = () => {
               <h4>Javascript</h4>
             </article>
             <article className='experience__details'>
+              <SiTypescript className='experience__details-icon'/>
+              <h4>Typescript</h4>
+            </article>
+            <article className='experience__details'>
               <DiBootstrap className='experience__details-icon'/>
               <h4>Bootstrap</h4>
             </article>
             <article className='experience__details'>
               <SiReact className='experience__details-icon'/>
-              <h4>React JS</h4>
+              <h4>ReactJS</h4>
             </article>
           </div>
         </div>
@@ -44,6 +52,24 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
+            <article className='experience__details'>
+              <FaNodeJs className='experience__details-icon'/>
+              <h4>NodeJS</h4>
+            </article>
+            <article className='experience__details'>
+              <SiExpress className='experience__details-icon'/>
+              <h4>Express</h4>
+            </article>
+            
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h3>Others</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <AiFillGithub className='experience__details-icon'/>
+              <h4>Github</h4>
+            </article>
             <article className='experience__details'>
               <AiOutlineConsoleSql className='experience__details-icon'/>
               <h4>SQL</h4>
