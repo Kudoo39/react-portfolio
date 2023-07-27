@@ -34,12 +34,12 @@ const About = () => {
             <article className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Projects</h5>
-              <small>3 projects completed</small>
+              <small>4 projects completed</small>
             </article>
           </div>
           <p>Currently, I am a third-year student at XAMK. 
             I have a solid foundation on IT. I would like to become a fullstack web developer.
-            I also have some basic knowledge about MVC. 
+            I also have some basic knowledge about MVC.
             My hobbies are building websites and creating games using Unity</p>
           <a href="#contact" className='btn btn-primary'>Contact</a>
         </div>
