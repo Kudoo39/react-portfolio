@@ -5,6 +5,7 @@ import img2 from "../../assets/pro2.png";
 import img3 from "../../assets/pro4.png";
 import img4 from "../../assets/pro5.png";
 import img5 from "../../assets/pro6.png";
+import img6 from "../../assets/pro7.png";
 
 const Project = () => {
   return (
@@ -113,6 +114,29 @@ const Project = () => {
             </a>
             <a
               href="https://github.com/Kudoo39/calculator-app"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img6} alt="Photo about todo-list app" />
+          </div>
+          <h3>Todo-list App</h3>
+          <div className="project__item-cta">
+            <a
+              href="https://kudoo39.github.io/todo-list-app/"
+              className="btn"
+              target="_blank"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/Kudoo39/todo-list-app"
               className="btn btn-primary"
               target="_blank"
             >
