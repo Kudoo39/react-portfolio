@@ -34,11 +34,11 @@ const About = () => {
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Projects</h5>
-              <small>5 projects completed</small>
+              <small>6 projects completed</small>
             </article>
           </div>
           <p>
-            Currently, I am a last-year student at XAMK. I have a solid
+            Currently, I am a fourth-year student at XAMK. I have a solid
             foundation on IT. I would like to become a fullstack web developer.
             I also have some basic knowledge about MVC. My hobbies are building
             websites and creating games using Unity
