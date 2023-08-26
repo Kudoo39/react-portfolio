@@ -5,11 +5,12 @@
 }
 
 .project__item {
-  background: rgb(48, 80, 168);
+  background: var(--color-semi);
   padding: 1.1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  border-color: var(--color-primary);
 }
 
 .project__item:hover {
