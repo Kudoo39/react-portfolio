@@ -24,16 +24,13 @@ const App = () => {
 
   return (
     <div className="app" data-theme={theme}>
-      <Header />
-      <button id="color_button" onClick={switchTheme}>
-        X
-      </button>
+      <Header switchTheme={switchTheme} />
       <Nav />
       <About />
       <Experience />
       <Project />
       <Contact />
-      <Footer />
+      <Footer switchTheme={switchTheme} />
     </div>
   );
 };

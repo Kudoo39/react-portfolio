@@ -7,7 +7,7 @@ import { GoProject } from "react-icons/go";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { useState } from "react";
 
-const Nav = () => {
+const Nav = ({ switchTheme }) => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>

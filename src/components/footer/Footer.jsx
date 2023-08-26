@@ -7,12 +7,15 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { FaItchIo } from "react-icons/fa";
 import LOGO from "../../assets/blacklogo.png";
 
-const Footer = () => {
+const Footer = ({ switchTheme }) => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        KHANG NGUYEN
-      </a>
+      <div>
+        <a href="#" className="footer__logo" onClick={switchTheme}>
+          KHANG NGUYEN
+        </a>
+      </div>
+
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>

@@ -49,6 +49,11 @@ header {
   overflow: hidden;
 }
 
+.me:hover {
+  background: linear-gradient(var(--hover-color), transparent);
+  cursor: pointer;
+}
+
 /* Scroll Down*/
 .scroll__down {
   position: absolute;

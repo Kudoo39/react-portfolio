@@ -19,6 +19,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   --color-text: white;
+  --hover-color: #0c4ba2;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -37,6 +38,7 @@
   --color-white: #000000;
   --color-light: rgba(32, 30, 30, 0.6);
   --color-text: black;
+  --hover-color: #fca311;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
