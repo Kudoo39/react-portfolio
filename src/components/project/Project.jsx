@@ -3,7 +3,7 @@ import "./project.css";
 import img1 from "../../assets/pro1.png";
 import img2 from "../../assets/pro2.png";
 import img3 from "../../assets/pro4.png";
-import img4 from "../../assets/pro5.png";
+import img4 from "../../assets/pro8.png";
 import img5 from "../../assets/pro6.png";
 import img6 from "../../assets/pro7.png";
 
@@ -78,19 +78,19 @@ const Project = () => {
 
         <article className="project__item">
           <div className="project__item-image">
-            <img src={img4} alt="Photo about Weather-app" />
+            <img src={img4} alt="Photo about Game Explorer" />
           </div>
-          <h3>Weather App</h3>
+          <h3>Game Explorer</h3>
           <div className="project__item-cta">
             <a
-              href="https://kudoo39.github.io/Weather-app/"
+              href="https://kudoo39.github.io/clone-game-website/"
               className="btn"
               target="_blank"
             >
               Demo
             </a>
             <a
-              href="https://github.com/Kudoo39/Weather-app"
+              href="https://github.com/Kudoo39/clone-game-website"
               className="btn btn-primary"
               target="_blank"
             >
