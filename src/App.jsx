@@ -6,18 +6,35 @@ import Experience from "./components/experience/Experience";
 import Project from "./components/project/Project";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import useLocalStorage from "use-local-storage";
 
 const App = () => {
+  const defaultDark = window.matchMedia(
+    "(prefers-color-scheme: light)"
+  ).matches;
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "light" : "dark"
+  );
+
+  const switchTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+  };
+
   return (
-    <>
+    <div className="app" data-theme={theme}>
       <Header />
+      <button id="color_button" onClick={switchTheme}>
+        X
+      </button>
       <Nav />
       <About />
       <Experience />
       <Project />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 

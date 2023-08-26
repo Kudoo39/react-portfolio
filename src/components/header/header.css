@@ -59,6 +59,10 @@ header {
   font-size: 0.9rem;
 }
 
+h1 {
+  color: var(--color-text);
+}
+
 /* Medium Queries (Medium devices)*/
 @media screen and (max-width: 1024px) {
   header {

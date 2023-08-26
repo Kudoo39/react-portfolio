@@ -80,6 +80,10 @@
     margin: 1rem 0 1.5rem;
   }
 }
+h5 {
+  color: var(--color-text);
+}
+
 /* Medium Queries (Small devices)*/
 @media screen and (max-width: 600px) {
   .about__me {
