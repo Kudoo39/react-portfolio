@@ -50,7 +50,6 @@ header {
 }
 
 .me:hover {
-  background: linear-gradient(var(--hover-color), transparent);
   cursor: pointer;
 }
 
