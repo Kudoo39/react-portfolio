@@ -1,7 +1,7 @@
 # React Portfolio Website
 This project showcases my work and skills as a full-stack developer.
 
-![React Portfolio Website Screenshot](src/assets/demo.png)
+![React Portfolio Website Screenshot](src/assets/demo1.png)
 
 ## Features
 
