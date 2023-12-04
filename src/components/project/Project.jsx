@@ -4,7 +4,7 @@ import img1 from "../../assets/pro1.png";
 import img2 from "../../assets/pro2.png";
 import img3 from "../../assets/pro9.png";
 import img4 from "../../assets/pro8.png";
-import img5 from "../../assets/pro6.png";
+import img5 from "../../assets/pro10.png";
 import img6 from "../../assets/pro7.png";
 
 const Project = () => {
@@ -103,17 +103,17 @@ const Project = () => {
           <div className="project__item-image">
             <img src={img5} alt="Photo about calculator app" />
           </div>
-          <h3>Calculator App</h3>
+          <h3>AuthNodeJS</h3>
           <div className="project__item-cta">
             <a
-              href="https://kudoo39.github.io/calculator-app/"
+              href="https://kudoo39-authentication.glitch.me/login"
               className="btn"
               target="_blank"
             >
               Demo
             </a>
             <a
-              href="https://github.com/Kudoo39/calculator-app"
+              href="https://github.com/Kudoo39/node-authentication"
               className="btn btn-primary"
               target="_blank"
             >

@@ -34,7 +34,7 @@ const About = () => {
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Projects</h5>
-              <small>8 projects completed</small>
+              <small>10+ projects completed</small>
             </article>
           </div>
           <p>
