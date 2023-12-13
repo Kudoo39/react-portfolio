@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <p>
             Currently, I am a fourth-year student at XAMK. I have a solid
-            foundation on IT. I would like to become a fullstack web developer.
+            foundation on IT. I would like to become a full-stack web developer.
             I also have some basic knowledge about MVC. My hobbies are building
             websites and creating games using Unity
           </p>
