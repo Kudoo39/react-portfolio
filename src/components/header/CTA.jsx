@@ -5,7 +5,7 @@ const CTA = () => {
     <div className="cta">
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1w5Zjul3SnwFaJkXw0mITsSMlKbYVaHuH/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1r9UAqwps2zJejUcNbioXBVeoBfQ-HzZ_/view?usp=sharing"
         className="btn"
       >
         Here's my CV

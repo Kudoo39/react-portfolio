@@ -2,9 +2,11 @@ import React from "react";
 import "./experience.css";
 import { AiFillHtml5, AiOutlineConsoleSql, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiJavascript, DiMongodb, DiBootstrap } from "react-icons/di";
-import { SiReact, SiTypescript, SiExpress } from "react-icons/si";
+import { SiReact, SiTypescript, SiExpress, SiNetlify } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { IoMdGitBranch } from "react-icons/io";
+import { TbBrandVercel } from "react-icons/tb";
+import { VscGithub } from "react-icons/vsc";
 
 const Experience = () => {
   return (
@@ -60,7 +62,26 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__backend">
+
+        <div className="experience__deployment_platforms">
+          <h3>Deployment Platforms</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <SiNetlify className="experience__details-icon" />
+              <h4>Netlify</h4>
+            </article>
+            <article className="experience__details">
+              <TbBrandVercel className="experience__details-icon" />
+              <h4>Vercel</h4>
+            </article>
+            <article className="experience__details">
+              <VscGithub className="experience__details-icon" />
+              <h4>GitHub Pages</h4>
+            </article>
+          </div>
+        </div>
+
+        <div className="experience__others">
           <h3>Others</h3>
           <div className="experience__content">
             <article className="experience__details">
