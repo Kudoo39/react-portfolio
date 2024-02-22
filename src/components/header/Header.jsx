@@ -1,8 +1,8 @@
-import React from "react";
-import "./header.css";
-import CTA from "./CTA";
-import ME from "../../assets/Me.png";
-import HeaderSocial from "./HeaderSocials";
+import React from 'react'
+import './header.css'
+import CTA from './CTA'
+import ME from '../../assets/Me.png'
+import HeaderSocial from './HeaderSocials'
 
 const Header = ({ switchTheme }) => {
   return (
@@ -10,7 +10,7 @@ const Header = ({ switchTheme }) => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Khang Nguyen</h1>
-        <h5 className="text-light">Full-stack Developer</h5>
+        <h5 className="text-light">Aspiring Full-stack Developer</h5>
         <CTA></CTA>
         <HeaderSocial />
 
@@ -23,7 +23,7 @@ const Header = ({ switchTheme }) => {
         </a>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

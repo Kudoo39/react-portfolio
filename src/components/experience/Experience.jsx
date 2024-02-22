@@ -1,12 +1,12 @@
-import React from "react";
-import "./experience.css";
-import { AiFillHtml5, AiOutlineConsoleSql, AiFillGithub } from "react-icons/ai";
-import { DiCss3, DiJavascript, DiMongodb, DiBootstrap } from "react-icons/di";
-import { SiReact, SiTypescript, SiExpress, SiNetlify } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { IoMdGitBranch } from "react-icons/io";
-import { TbBrandVercel } from "react-icons/tb";
-import { VscGithub } from "react-icons/vsc";
+import React from 'react'
+import './experience.css'
+import { AiFillHtml5, AiFillGithub } from 'react-icons/ai'
+import { DiCss3, DiJavascript, DiMongodb } from 'react-icons/di'
+import { SiReact, SiTypescript, SiExpress, SiNetlify, SiTailwindcss } from 'react-icons/si'
+import { FaNodeJs } from 'react-icons/fa'
+import { IoMdGitBranch } from 'react-icons/io'
+import { TbBrandVercel } from 'react-icons/tb'
+import { VscGithub } from 'react-icons/vsc'
 
 const Experience = () => {
   return (
@@ -35,12 +35,8 @@ const Experience = () => {
               <h4>Typescript</h4>
             </article>
             <article className="experience__details">
-              <DiBootstrap className="experience__details-icon" />
-              <h4>Bootstrap</h4>
-            </article>
-            <article className="experience__details">
               <SiReact className="experience__details-icon" />
-              <h4>ReactJS</h4>
+              <h4>React</h4>
             </article>
           </div>
         </div>
@@ -50,11 +46,11 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <FaNodeJs className="experience__details-icon" />
-              <h4>NodeJS</h4>
+              <h4>Node.js</h4>
             </article>
             <article className="experience__details">
               <SiExpress className="experience__details-icon" />
-              <h4>Express</h4>
+              <h4>Express.js</h4>
             </article>
             <article className="experience__details">
               <DiMongodb className="experience__details-icon" />
@@ -93,14 +89,17 @@ const Experience = () => {
               <h4>GitHub</h4>
             </article>
             <article className="experience__details">
-              <AiOutlineConsoleSql className="experience__details-icon" />
-              <h4>SQL</h4>
+              <SiTailwindcss className="experience__details-icon" />
+              <h4>TailwindCSS</h4>
+            </article>
+            <article className="experience__details">
+              <h4>Material UI & Chakra UI</h4>
             </article>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Experience;
+export default Experience

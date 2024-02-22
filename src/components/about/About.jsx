@@ -1,9 +1,9 @@
-import React from "react";
-import "./about.css";
-import ME from "../../assets/Me2.png";
-import { FiAward } from "react-icons/fi";
-import { AiOutlineCamera } from "react-icons/ai";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import React from 'react'
+import './about.css'
+import ME from '../../assets/Me2.png'
+import { FiAward } from 'react-icons/fi'
+import { AiOutlineCamera } from 'react-icons/ai'
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 const About = () => {
   return (
     <section id="about">
@@ -38,10 +38,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Currently, I am a fourth-year student at XAMK. I have a solid
-            foundation on IT. I would like to become a full-stack web developer.
-            I also have some basic knowledge about MVC. My hobbies are building
-            websites and creating games using Unity
+            Currently, I am a fourth-year student at XAMK. I have a solid foundation on IT. I am a motivated software
+            developer with a strong background in front-end development and I would like to become a proficient
+            full-stack web developer. I also have some basic knowledge about MVC. My hobbies are building websites and
+            creating games using Unity
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact
@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About
