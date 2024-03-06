@@ -5,10 +5,10 @@ import img2 from '../../assets/pro2.png'
 import img3 from '../../assets/pro9.png'
 import img4 from '../../assets/pro8.png'
 import img5 from '../../assets/pro10.png'
-import img6 from '../../assets/pro7.png'
 import img7 from '../../assets/pro11.png'
 import img8 from '../../assets/pro12.png'
 import img9 from '../../assets/pro13.png'
+import img10 from '../../assets/pro14.png'
 
 const Project = () => {
   const projects = [
@@ -47,11 +47,11 @@ const Project = () => {
       githubLink: 'https://github.com/Kudoo39/node-authentication'
     },
     {
-      name: 'Todo-list App',
-      imgSrc: img6,
-      alt: 'Photo about todo-list app',
-      demoLink: 'https://kudoo39.github.io/todo-list-app/',
-      githubLink: 'https://github.com/Kudoo39/todo-list-app'
+      name: 'Trending Shop',
+      imgSrc: img10,
+      alt: 'Photo about Trending Shop',
+      demoLink: 'https://trending-shop.netlify.app/',
+      githubLink: 'https://github.com/Kudoo39/trending-shop'
     },
     {
       name: 'Breweries App',
