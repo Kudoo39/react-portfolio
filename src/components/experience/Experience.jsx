@@ -2,8 +2,8 @@ import React from 'react'
 import './experience.css'
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai'
 import { DiCss3, DiJavascript, DiMongodb } from 'react-icons/di'
-import { SiReact, SiTypescript, SiExpress, SiNetlify, SiTailwindcss } from 'react-icons/si'
-import { FaNodeJs } from 'react-icons/fa'
+import { SiReact, SiTypescript, SiExpress, SiNetlify, SiRedux, SiJest } from 'react-icons/si'
+import { FaNodeJs, FaJava } from 'react-icons/fa'
 import { IoMdGitBranch } from 'react-icons/io'
 import { TbBrandVercel } from 'react-icons/tb'
 import { VscGithub } from 'react-icons/vsc'
@@ -38,6 +38,10 @@ const Experience = () => {
               <SiReact className="experience__details-icon" />
               <h4>React</h4>
             </article>
+            <article className="experience__details">
+              <SiRedux className="experience__details-icon" />
+              <h4>Redux</h4>
+            </article>
           </div>
         </div>
 
@@ -55,6 +59,10 @@ const Experience = () => {
             <article className="experience__details">
               <DiMongodb className="experience__details-icon" />
               <h4>MongoDB</h4>
+            </article>
+            <article className="experience__details">
+              <FaJava className="experience__details-icon" />
+              <h4>Java</h4>
             </article>
           </div>
         </div>
@@ -89,11 +97,8 @@ const Experience = () => {
               <h4>GitHub</h4>
             </article>
             <article className="experience__details">
-              <SiTailwindcss className="experience__details-icon" />
-              <h4>TailwindCSS</h4>
-            </article>
-            <article className="experience__details">
-              <h4>Material UI & Chakra UI</h4>
+              <SiJest className="experience__details-icon" />
+              <h4>Jest</h4>
             </article>
           </div>
         </div>

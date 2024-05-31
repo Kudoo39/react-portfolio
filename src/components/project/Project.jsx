@@ -9,6 +9,7 @@ import img7 from '../../assets/pro11.png'
 import img8 from '../../assets/pro12.png'
 import img9 from '../../assets/pro13.png'
 import img10 from '../../assets/pro14.png'
+import img11 from '../../assets/pro15.png'
 
 const Project = () => {
   const projects = [
@@ -40,11 +41,11 @@ const Project = () => {
       githubLink: 'https://github.com/Kudoo39/clone-game-website'
     },
     {
-      name: 'AuthNodeJS',
-      imgSrc: img5,
-      alt: 'Photo about calculator app',
-      demoLink: 'https://kudoo39-authentication.glitch.me/login',
-      githubLink: 'https://github.com/Kudoo39/node-authentication'
+      name: 'The Trendy Store',
+      imgSrc: img11,
+      alt: 'Photo about The Trendy Store',
+      demoLink: 'https://trendy-store.netlify.app/',
+      githubLink: 'https://github.com/Kudoo39/the-trendy-store'
     },
     {
       name: 'Trending Shop',

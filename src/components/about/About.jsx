@@ -38,10 +38,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Currently, I am a fourth-year student at XAMK. I have a solid foundation on IT. I am a motivated software
+            I am recently graduated with a Bachelor of Engineering in Information Technology from XAMK, 
+            and very excited to begin a fulfilling career journey. I am a motivated software
             developer with a strong background in front-end development and I would like to become a proficient
-            full-stack web developer. I also have some basic knowledge about MVC. My hobbies are building websites and
-            creating games using Unity
+            full-stack web developer. My hobbies are building websites and creating games using Unity
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact
