@@ -1,15 +1,15 @@
 import React from 'react'
 import './project.css'
-import img1 from '../../assets/pro1.png'
-import img2 from '../../assets/pro2.png'
-import img3 from '../../assets/pro9.png'
-import img4 from '../../assets/pro8.png'
-import img5 from '../../assets/pro10.png'
-import img7 from '../../assets/pro11.png'
-import img8 from '../../assets/pro12.png'
-import img9 from '../../assets/pro13.png'
-import img10 from '../../assets/pro14.png'
-import img11 from '../../assets/pro15.png'
+import img1 from '../../assets/projects/pro1.png'
+import img2 from '../../assets/projects/pro2.png'
+import img3 from '../../assets/projects/pro9.png'
+import img4 from '../../assets/projects/pro8.png'
+import img7 from '../../assets/projects/pro11.png'
+import img8 from '../../assets/projects/pro12.png'
+import img9 from '../../assets/projects/pro13.png'
+import img10 from '../../assets/projects/pro14.png'
+import img11 from '../../assets/projects/pro15.png'
+import img12 from '../../assets/projects/pro16.png'
 
 const Project = () => {
   const projects = [
@@ -55,11 +55,11 @@ const Project = () => {
       githubLink: 'https://github.com/Kudoo39/trending-shop'
     },
     {
-      name: 'Breweries App',
-      imgSrc: img7,
-      alt: 'Photo about breweries app',
-      demoLink: 'https://fs-breweries-app.netlify.app/',
-      githubLink: 'https://github.com/Kudoo39/fs17-week3-React-public'
+      name: 'Trello Project',
+      imgSrc: img12,
+      alt: 'Photo about trello app',
+      demoLink: 'https://trelloproject.vercel.app/',
+      githubLink: 'https://github.com/Kudoo39/trello-project'
     },
     {
       name: 'Serenity Space',

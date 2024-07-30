@@ -53,7 +53,7 @@ const Footer = ({ switchTheme }) => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; 2023 - Khang Nguyen</small>
+        <small>&copy; 2024 - Khang Nguyen</small>
       </div>
     </footer>
   );
