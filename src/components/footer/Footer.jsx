@@ -1,11 +1,33 @@
 import React from "react";
 import "./footer.css";
-import { ImFacebook } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
+import { SiLeetcode } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaItchIo } from "react-icons/fa";
-import LOGO from "../../assets/blacklogo.png";
+import Tooltip from '@mui/material/Tooltip';
+
+const socialLinks = [
+  {
+    href: "https://www.linkedin.com/in/khang-nguyen3902/",
+    icon: <GrLinkedinOption />,
+    title: "LinkedIn"
+  },
+  {
+    href: "https://github.com/Kudoo39/",
+    icon: <AiFillGithub />,
+    title: "GitHub"
+  },
+  {
+    href: "https://leetcode.com/u/Kudoo39/",
+    icon: <SiLeetcode />,
+    title: "LeetCode"
+  },
+  {
+    href: "https://kudoo39.itch.io/",
+    icon: <FaItchIo />,
+    title: "Itch.io"
+  }
+];
 
 const Footer = ({ switchTheme }) => {
   return (
@@ -34,22 +56,15 @@ const Footer = ({ switchTheme }) => {
         </li>
       </ul>
 
+
       <div className="footer__socials">
-        <a target="_blank" href="https://www.linkedin.com/in/khang-nguyen3902/">
-          <GrLinkedinOption />
-        </a>
-        <a target="_blank" href="https://github.com/Kudoo39/">
-          <AiFillGithub />
-        </a>
-        <a target="_blank" href="https://www.facebook.com/nguyenphu.duykhang">
-          <ImFacebook />
-        </a>
-        <a target="_blank" href="https://www.instagram.com/dkhangg0309/">
-          <BsInstagram />
-        </a>
-        <a target="_blank" href="https://kudoo39.itch.io/">
-          <FaItchIo />
-        </a>
+        {socialLinks.map((link, index) => (
+          <Tooltip key={index} title={link.title}>
+            <a target="_blank" rel="noopener noreferrer" href={link.href}>
+              {link.icon}
+            </a>
+          </Tooltip>
+        ))}
       </div>
 
       <div className="footer__copyright">
