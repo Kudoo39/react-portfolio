@@ -5,7 +5,7 @@ const CTA = () => {
     <div className="cta">
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1JqWASZO85D1YlCz65oAW57ECoo-sozmf/view?usp=sharing"
+        href="https://drive.google.com/file/d/1L32n3oSKnfjkwiAWpKHo_YWribShaVZE/view?usp=sharing"
         className="btn"
         rel="noreferrer"
       >
