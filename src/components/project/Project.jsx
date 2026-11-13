@@ -27,9 +27,9 @@ const Project = () => {
       githubLink: 'https://github.com/Kudoo39/The-DeadSlayer'
     },
     {
-      name: 'Restaurant App',
+      name: 'Saigon Sandwich Bakery',
       imgSrc: img3,
-      alt: 'Photo about react-portfolio',
+      alt: 'Saigon Sandwich Bakery restaurant website',
       demoLink: 'https://kudoo39.github.io/restaurant-app/',
       githubLink: 'https://github.com/Kudoo39/restaurant-app'
     },
@@ -79,8 +79,8 @@ const Project = () => {
 
   return (
     <section id="project">
-      <h5>Projects I have done</h5>
-      <h2>My Projects</h2>
+      <h5>Business websites, team projects & personal work</h5>
+      <h2>Projects & Earlier Work</h2>
 
       <div className="container project__container">
         {projects.map((project, index) => (

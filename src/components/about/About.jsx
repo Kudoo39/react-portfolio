@@ -21,27 +21,31 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Have been coding over two years</small>
+              <h5>Current Work</h5>
+              <small>Since AI & HEi BUDDii</small>
             </article>
 
             <article className="about__card">
               <AiOutlineCamera className="about__icon" />
-              <h5>Hobby</h5>
-              <small>Coding, Listening to Music, Playing Piano</small>
+              <h5>Focus</h5>
+              <small>Full-stack web & mobile</small>
             </article>
 
             <article className="about__card">
               <FiAward className="about__icon" />
-              <h5>Projects</h5>
-              <small>15+ projects completed</small>
+              <h5>Open Source</h5>
+              <small>AI Shipcheck maintainer</small>
             </article>
           </div>
           <p>
-            I am recently graduated with a Bachelor of Engineering in Information Technology from XAMK, 
-            and very excited to begin a fulfilling career journey. I am a motivated software
-            developer with a strong background in front-end development and I would like to become a proficient
-            full-stack web developer. My hobbies are building websites and creating games using Unity in my spare time
+            I'm a software developer based in Finland, building full-stack web and
+            mobile applications. At Since AI, I contribute to the web platform and
+            official website, and maintain AI Shipcheck. I'm also a Founding Engineer
+            at HEi BUDDii, helping build and deliver a social networking platform.
+            My main stack includes React, Next.js, TypeScript, Node.js, PostgreSQL,
+            and MongoDB. My work also includes automated testing, CI/CD, and cloud
+            deployment. In my spare time, I enjoy building websites and creating
+            games with Unity.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact

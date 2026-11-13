@@ -10,7 +10,7 @@ const Header = ({ switchTheme }) => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Khang Nguyen</h1>
-        <h5 className="text-light">Aspiring Full-stack Developer</h5>
+        <h5 className="text-light">Software Engineer | React, TypeScript & Node.js</h5>
         <CTA></CTA>
         <HeaderSocial />
 

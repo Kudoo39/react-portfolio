@@ -3,7 +3,7 @@ import './experience.css'
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai'
 import { DiCss3, DiJavascript, DiMongodb } from 'react-icons/di'
 import { SiReact, SiTypescript, SiExpress, SiNetlify, SiRedux, SiJest, SiSpring } from 'react-icons/si'
-import { FaNodeJs, FaJava } from 'react-icons/fa'
+import { FaNodeJs, FaJava, FaAws } from 'react-icons/fa'
 import { IoMdGitBranch } from 'react-icons/io'
 import { TbBrandVercel } from 'react-icons/tb'
 import { VscGithub } from 'react-icons/vsc'
@@ -28,7 +28,8 @@ const backendSkills = [
 const deploymentSkills = [
   { icon: <SiNetlify className="experience__details-icon" />, name: 'Netlify' },
   { icon: <TbBrandVercel className="experience__details-icon" />, name: 'Vercel' },
-  { icon: <VscGithub className="experience__details-icon" />, name: 'GitHub Pages' }
+  { icon: <VscGithub className="experience__details-icon" />, name: 'GitHub Pages' },
+  { icon: <FaAws className="experience__details-icon" />, name: 'AWS EC2' }
 ]
 
 const otherSkills = [
